@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv-flow": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/dotenv-flow": "^3.2.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "command-deploy": "node ./src/commands/deploy.js",
+    "postinstall": "node ./src/commands/deploy.js",
+    "bot-test": "ts-node --prefer-ts-exts src/index.ts",
+    "command-deploy-test": "ts-node --prefer-ts-exts src/commands/deploy-commands.ts"
+  }
+}

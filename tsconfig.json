@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "outDir": "./dist",
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
